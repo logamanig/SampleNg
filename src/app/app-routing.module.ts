@@ -6,9 +6,9 @@ import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
 
 const routes: Routes = [
-  // {
-  //   path: '', redirectTo: 'products', pathMatch: 'full'
-  // },
+  {
+    path: '', redirectTo: 'products', pathMatch: 'full'
+  },
   { 
     path: 'products', component: ProductListComponent, pathMatch: 'full',
   },
