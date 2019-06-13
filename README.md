@@ -1,4 +1,5 @@
 # SampleNg
+[![Build Status](https://travis-ci.org/logamanig/SampleNg.svg?branch=master)](https://travis-ci.org/logamanig/SampleNg)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
 
