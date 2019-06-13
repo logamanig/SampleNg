@@ -4,15 +4,19 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 import { ShippingComponent } from './shipping/shipping.component';
+import { HeroesComponent } from './heroes/heroes.component';
 
 const routes: Routes = [
   {
-    path: '', redirectTo: 'products', pathMatch: 'full'
+    path: '', redirectTo: 'heroes', pathMatch: 'full'
   },
-  { 
+  {
+    path: 'heroes', component: HeroesComponent
+  },
+  {
     path: 'products', component: ProductListComponent, pathMatch: 'full',
   },
-  {    
+  {
     path: 'products/:productId', component: ProductDetailsComponent
   },
   {
